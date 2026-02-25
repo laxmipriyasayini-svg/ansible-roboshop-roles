@@ -36,6 +36,6 @@
 
 - name: start catalogue
   ansible.builtin.service:
-      name: catalogue
-      state: restarted
-      enabled: yes    
+    name: catalogue
+    state: restarted
+    enabled: yes    
