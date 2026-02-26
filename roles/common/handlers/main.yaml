@@ -1,0 +1,5 @@
+- name: restart "{{ component }}"
+  ansible.builtin.service:
+    name: catalogue
+    state: restarted
+    
