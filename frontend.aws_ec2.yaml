@@ -10,5 +10,5 @@ compose:
   # this sets the ansible_host variable to connect with the private IP address without changing the host name
   ansible_host: private_ip_address
 keyed_groups:
-- prefix: ""
-  key: frontend-dev
+- seperator: ''
+  key: tags.Component 
